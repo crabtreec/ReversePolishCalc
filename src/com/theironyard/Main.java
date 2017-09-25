@@ -24,8 +24,8 @@ public class Main {
         actualResult = rpc.calculate(rpnExpression);
         checkResult(rpnExpression, expectedResult, actualResult);
 
-        rpnExpression = "20,3.5,/";
-        expectedResult = 5.714285714285714;
+        rpnExpression = "15.5,4,/";
+        expectedResult = 3.875;
         actualResult = rpc.calculate(rpnExpression);
         checkResult(rpnExpression, expectedResult, actualResult);
 

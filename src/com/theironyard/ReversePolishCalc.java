@@ -20,7 +20,7 @@ public class ReversePolishCalc {
                 double number2 = pop();
                 switch (tokens[i]) {
                     case "+":
-                        push(number2 + number1);
+                        push(number1 + number2);
                         break;
                     case "-":
                         push(number2 - number1);
